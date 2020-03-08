@@ -1,0 +1,40 @@
+.Card {
+  width: 400px;
+  height: 300px;
+
+  margin: 0 1rem;
+}
+
+.Card:first-child {
+  margin-left: 1rem;
+}
+
+.Card.CardMain {
+  width: 500px;
+}
+
+.Card .ImageContainer img {
+}
+
+.Image {
+  width: 400px;
+  height: 300px;
+}
+
+.ProductDetails {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ProductTitle {
+  font-weight: bold;
+}
+
+.ProductPrice {
+  padding-top: 2px;
+  font-weight: lighter;
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 0.71);
+
+  text-align: left;
+}

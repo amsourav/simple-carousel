@@ -1,0 +1,18 @@
+.Tag {
+  font-size: 0.7rem;
+  background-color: gray;
+
+  color: white;
+  margin: 3px;
+
+  display: flex;
+}
+
+.TagText {
+  padding: 3px;
+  padding-right: 2px;
+}
+
+.TagClear {
+  cursor: pointer;
+}
